@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  * Return: Always 0
  */
 int main(void)
 {
-	printf("Size of int: %zu bytes\n", sizeof(intType));
-   	 printf("Size of float: %zu bytes\n", sizeof(floatType));
-   	 printf("Size of double: %zu bytes\n", sizeof(doubleType));
-    	printf("Size of char: %zu byte\n", sizeof(charType));
+	printf("Size of int: %lu bytes", sizeof(intType));
+   	 printf("Size of float: %lu bytes", sizeof(floatType));
+   	 printf("Size of double: %lu bytes", sizeof(doubleType));
+    	printf("Size of char: %lu byte", sizeof(charType));
 	return (0);
 }
